@@ -35,6 +35,24 @@ Data cleaning is often considered a tedious part of data projects, but this expe
 
 Additionally, this project emphasized the need for effective communication with stakeholders. 
 
+## Repository Structure
+
+This repository is organized to ensure a clear and logical structure, facilitating ease of navigation and understanding of the project workflow. Below is an outline of the main components:
+
+### 1. Notebooks
+This folder contains Jupyter notebooks used throughout the project to analyze and process the datasets. Key scripts include:
+
+- **1_data_cleaning**: Outlines the data cleaning steps required for preparing datasets. These steps are designed to handle inconsistencies, missing values, and other quality issues across new or existing datasets.
+
+- **2_quality_assessment**: Evaluates the datasets against specific quality attributes such as completeness, consistency, and reliability. This ensures the data is suitable for analysis and decision-making.
+
+- **3_category_creation**: Focuses on creating meaningful categorical variables from numerical data (e.g., product prices). These categories enhance the richness of the analysis by enabling slicing, filtering, and grouping of data.
+
+- **4_analysis_business_questions**: Conducts a detailed analysis of the datasets to address the central business question: _Is offering discounts beneficial for the company?_ Insights from this notebook drive the strategic recommendations.
+
+### 2. Output
+This folder includes the presentation of key findings from the analysis. The output is designed to communicate insights effectively to stakeholders, balancing technical depth with actionable conclusions.
+
 ## Conclusion
 This project demonstrated the power of data-driven decision-making, even when starting with chaotic and inconsistent datasets. By cleaning the data and answering key business questions, I helped shed light on Eniac’s discount strategy. While further exploration is necessary, the analysis provided a clearer understanding of the impact of discounts on sales, revenue, and customer behavior.
 
